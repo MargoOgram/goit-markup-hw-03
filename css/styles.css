@@ -41,7 +41,7 @@
         list-style: none;
 }
 .list li, .site-nav-list li, .list-contact li, .list-benefits li {
-        outline: 1px solid red;
+        outline: 1px solid tomato;
 }
 .site-nav-list .item:not(:last-child) {
         margin-right: 50px;
