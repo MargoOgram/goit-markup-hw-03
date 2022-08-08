@@ -15,12 +15,15 @@
     background-color: #F5F5F5;
     margin: 0;
 }
+.section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+}
 .container {
         width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+      
 
 }
 .header {
@@ -40,9 +43,7 @@
         display: flex;
         list-style: none;
 }
-.list li, .site-nav-list li, .list-contact li, .list-benefits li {
-        outline: 1px solid tomato;
-}
+
 .site-nav-list .item:not(:last-child) {
         margin-right: 50px;
 }
@@ -200,12 +201,14 @@
 }
 .footer {
         background: var(--backgroung-accent);
-        width: 1600px;
-                height: 252px;
-                left: 0px;
-                top: 1628px;
+        width: 1200px;
+        height: 252px;
+        left: 0px;
+        top: 1600px;
+        padding-top: 60px;
         padding-left: 15px;
         padding-right: 15px;
+        /* margin-top: 95px; */
 }
 .footer-logo {
         font-family: 'Raleway' sans-serif;
@@ -216,7 +219,6 @@
         letter-spacing: 0.03em;
         color: var(--accent-color-title);
         margin-bottom: 20px;
-        
 }
 .footer-address:hover,
 .footer-addres:focus,
@@ -294,15 +296,39 @@ img {
         height: auto;
         margin-right: 0;
 }
+
 .list-port {
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
+        
 
 }
 .item-port{
         width: 370px;
         margin: 15px;
-        outline: 2px solid teal;
+        border-bottom: 1px solid #ECECEC ;
+        border-left: 1px solid #ECECEC ;
+        border-right: 1px solid #ECECEC ;
+       
+        
+
+}
+
+.link-port{
+        text-decoration: none;
+}
+.title-port,
+.view {
+        margin-left: 24px;
+}
+.title-port{
+        margin-bottom: 5px;
+       
+}
+.view{
+       
+        margin-top: 0 ;
 }
 
