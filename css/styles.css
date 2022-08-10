@@ -18,6 +18,7 @@
 .section {
         padding-top: 94px;
         padding-bottom: 94px;
+       
 }
 .container {
        
@@ -38,6 +39,8 @@
         padding-left: 15px;
         padding-right: 15px;
         border-bottom: 1px solid #ECECEC;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 .main-header {
         display: flex;
@@ -74,6 +77,8 @@
         display: flex;
         list-style: none;
         margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
 
 
 }
@@ -138,23 +143,26 @@
         width: 696px;
 }
 .service-button  {
+        width: 216px;
         height: 50px;
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
-        display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
         color: var(--accent-color-title);
         background-color: var(--accent-color);
         cursor: pointer;
-        margin:  auto;
+        margin-left: 492px;
         margin-top: 30px;
+
 }
 
 .section-background {
         background-color: var(--backgroung-accent);
+        padding-top: 200px;
+        padding-bottom: 200px;
 }
 .benefits {
         position: absolute;
@@ -186,6 +194,7 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
+        margin-top: 10px;
         margin-bottom: 0;
 }
 .title-section {
@@ -195,10 +204,12 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-text-color);
+        margin-top: 0;
+        margin-bottom: 50px;
 }
 .section-gallery {
         padding-top: 0;
-        padding-bottom: 0;
+        padding-bottom: 0px;
 }
 .list-gallery {
         display: flex;
@@ -213,6 +224,7 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-text-color);
+        margin-top: 0;
 }
 .work_position {
         font-weight: 400;
@@ -221,6 +233,11 @@
         text-align: center;
         letter-spacing: 0.03em;
          color: var(--primary-text-color);
+         margin-bottom: 0;
+}
+.subject {
+        padding-top: 30px;
+        padding-bottom: 30px;
 }
 .team {
         display: flex;
@@ -268,7 +285,7 @@
         letter-spacing: 0.03em;
         color: var(--transparent-color);
         display: block;
-        margin-bottom: 9px;
+        
 }
  /* portfolio */
  .list-port, .list-btn {
@@ -290,6 +307,10 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-text-color);
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
 }
 .btn-port:hover,
 .btn-port:focus {
@@ -302,12 +323,14 @@
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--title-text-color);
+        margin: 0;
 }
 .view {
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
+        margin: 0;
 }
 .service-port {
         font-size: 18px;
