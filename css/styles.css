@@ -12,7 +12,7 @@
  body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
     margin: 0;
 }
 .section {
@@ -36,8 +36,8 @@
 .header {
         display: flex;
         align-items: center;
-        padding-left: 15px;
-        padding-right: 15px;
+        /* padding-left: 15px;
+        padding-right: 15px; */
         border-bottom: 1px solid #ECECEC;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -208,14 +208,17 @@
         margin-bottom: 50px;
 }
 .section-gallery {
-        padding-top: 0;
-        padding-bottom: 0px;
+        padding-top: 47px;
+        padding-bottom: 47px;
 }
 .list-gallery {
         display: flex;
 }
 .list-gallery .item-gallery:not(:last-child) {
         margin-right: 30px;
+}
+.section-benefits {
+        padding-bottom: 47px;
 }
 .title-name {
         font-weight: 500;
@@ -238,6 +241,9 @@
 .subject {
         padding-top: 30px;
         padding-bottom: 30px;
+}
+.section-team {
+        padding-top: 47px;
 }
 .team {
         display: flex;
@@ -285,7 +291,11 @@
         letter-spacing: 0.03em;
         color: var(--transparent-color);
         display: block;
+        margin-bottom: 9px;
         
+}
+.tel {
+        margin-bottom: 0;
 }
  /* portfolio */
  .list-port, .list-btn {
